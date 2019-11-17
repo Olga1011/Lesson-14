@@ -1,5 +1,6 @@
 function Dis(a, b, c) {
-    var D = (b * b) - (4 * a * c);
+    // return  alert((b * b) - (4 * a * c));
+    var D = (b * b) - (4 * a * c); 
     if (D == 0) {
         alert(x = -(b / (2 * a)));
     } if (D < 0) {
@@ -10,5 +11,5 @@ function Dis(a, b, c) {
     };
 };
 
-var a = [1, 5, 8];
-Dis.apply(null,a);       
+var a = [1, 5, 6];
+Dis.apply(null,a);
